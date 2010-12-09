@@ -1,6 +1,6 @@
 Name: yarg
-Version: 0.3
-Release: %mkrel 2
+Version: 0.4
+Release: %mkrel 1
 Summary: Yet Another Randr Gui
 Group: System/X11
 Source0: %{name}-%{version}.tar.bz2
@@ -21,11 +21,7 @@ only supports basic functionality and can be minimized to tray.
 %setup -q
 
 %build
-%if %{mdkversion} <= 200910
-    qmake PREFIX=/usr OEM_HACKS=yes
-%else
-    qmake PREFIX=/usr
-%endif
+qmake PREFIX=/usr
 
 %make
 
