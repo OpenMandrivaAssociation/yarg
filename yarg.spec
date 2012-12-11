@@ -41,3 +41,17 @@ rm -rf %{buildroot}
 %{_datadir}/yarg
 %{_datadir}/applications/yarg.desktop
 %{_mandir}/man1/yarg.1*
+
+
+%changelog
+* Thu Dec 09 2010 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 0.4-1mdv2011.0
++ Revision: 618312
+- New version: 0.4
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - the mass rebuild of 2010.1 packages
+
+* Thu Apr 01 2010 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 0.3-1mdv2010.1
++ Revision: 530745
+- import yarg
+

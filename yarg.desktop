@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Yarg
+Name[pt_BR]=Yarg
+GenericName=Screens resolution configuration
+GenericName[pt_BR]=Configuração de resolução de telas
+Comment=Yet Another Randr Gui, a tool for configuring display
+Comment[pt_BR]=Yet Another Randr Gui, uma ferramenta para configurar monitores
+Exec=yarg --show
+Icon=/usr/share/yarg/yarg.png
+Type=Application
+Categories=Qt;System;
