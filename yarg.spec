@@ -9,9 +9,9 @@ License: GPLv2+
 BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: qt4-devel
-BuildRequires: libx11-devel
-BuildRequires: libxrandr-devel
-BuildRequires: libboost-devel
+BuildRequires: pkgconfig(x11)
+BuildRequires: pkgconfig(xrandr)
+BuildRequires: boost-devel = 1.53.0-2
 
 %description
 Yet Another Randr Gui is a very simple Randr gui written in QT. Currently, it
