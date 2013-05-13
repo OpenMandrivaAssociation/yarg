@@ -1,12 +1,11 @@
 Name: yarg
 Version: 0.4
-Release: %mkrel 1
+Release: 2
 Summary: Yet Another Randr Gui
 Group: System/X11
 Source0: %{name}-%{version}.tar.bz2
 Source1: %{name}.desktop
 License: GPLv2+
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: qt4-devel
 BuildRequires: pkgconfig(x11)
