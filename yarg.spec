@@ -1,6 +1,6 @@
 Name: yarg
 Version: 0.4
-Release: 2
+Release: 3
 Summary: Yet Another Randr Gui
 Group: System/X11
 Source0: %{name}-%{version}.tar.bz2
