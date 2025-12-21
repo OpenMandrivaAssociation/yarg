@@ -7,6 +7,7 @@ Source0: %{name}-%{version}.tar.bz2
 Source1: %{name}.desktop
 License: GPLv2+
 
+BuildRequires:	make
 BuildRequires: qt4-devel
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xrandr)
